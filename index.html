@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissors</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Testing Rock Paper Scissors</h1>
-    <script src="test.js" defer></script>
+    <script src="index.js" defer></script>
 
     <div>
-        <h2>Choose your answer</h2>
-        <button onclick="getAnswer('rock')">Rock</button>
-        <button onclick="getAnswer('paper')">Paper</button>
-        <button onclick="getAnswer('scissor')">Scissor</button>
+      <h2>Choose your answer</h2>
+      <button onclick="select('rock')">Rock</button>
+      <button onclick="select('paper')">Paper</button>
+      <button onclick="select('scissor')">Scissor</button>
 
-        <p id="scoreId" class="score"></p>
-        <p id="messages"></p>
+      <p id="messages"></p>
+      <p id="score" class="score"></p>
     </div>
-</body>
+  </body>
 </html>
